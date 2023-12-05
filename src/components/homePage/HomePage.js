@@ -1,20 +1,20 @@
 import React from "react";
 import { AboutMe } from "./AboutMe";
-import { Projects } from "./Projects";
+import { Projects } from "../projects/Projects";
+import { Skills } from "./Skills";
+import { Link } from "react-router-dom";
 
 export const HomePage = () => {
     return (
         <div className="home-page">
-            <div className="left">
+            
                 <h1>
                     Welcome
                 </h1>
-                <AboutMe />
-            </div>
-            <div className="right">
-                <Projects />
-                
-            </div>
+                <p>
+                    My name is Amy Martin. I am a Los Angeles-based full-stack developer with a passion for crafting dynamic and responsive web applications. Specializing in PostgreSQL, Express, React, Node.js, I thrive on bringing ideas to life through code. Explore my projects to witness the seamless fusion of creativity and functionality in the digital realm.
+                </p>
+                <Skills />
         </div>
 
     )

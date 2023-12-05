@@ -12,7 +12,8 @@ export const ProjectCard = (props) => {
                 <p classname='project-description'>{description}</p>
                 <div className='project-images'>
                     {imgList.map(img => {
-                        return <img className='projectImg' src={require(img)}/>
+                        
+                        return <img className='projectImg' src={img}/>
                     })}
                 </div>
                 <a href={link}>{linkName}</a>

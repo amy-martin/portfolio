@@ -1,1 +1,256 @@
+*, html {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgba(3, 52, 105);
+    scroll-behavior: smooth;
+    font-size: 17.5px;
+}
 
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.55)), url("./media/background-image.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+/* CONTACT NAV STYLING */
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    min-width: 300px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-list {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-list li a {
+    display:block;
+    width: fit-content;
+    height:fit-content;
+    padding: 10px;
+}
+.contact-list li a img {
+    height:40px;
+    width: auto;
+
+    border-radius: 50%;
+
+}
+
+.contact-list li a img:hover {
+    background: rgba(255,255,255,0.55); /* Semi-transparent black overlay */
+    border-radius: 50%;
+}
+
+
+main {
+    height: calc(100% - 100px);
+    width: 100%;
+    min-width: 300;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+
+/* HOME PAGE STYLING */
+
+
+.home-page >* {
+    margin: 10px;
+}
+.home-page {
+    width: 100%;
+    min-width: 300px;
+    max-width: 900px;
+    height: 75%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.home-page h1 {
+    font-size: 80px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.home-page h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px
+}
+
+img.sidebar-icon {
+    height: 40px;
+}
+
+.sidebar-icon-container {
+    margin: 10px;
+}
+
+.sidebar-container.sidebar {
+    position: fixed;
+    top: 75px;
+    right: 0;
+    height: 100%;
+    width: 250px;
+    background-color: rgba(255,255,255, .5) ;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    padding:20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .sidebar ul li img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .sidebar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(3, 52, 104)
+    
+
+  }
+  
+  .sidebar ul li:hover {
+    background-color: rgba(3, 52, 105, 0.643);
+  }
+
+  
+
+  .sidebar-icon.rotated {
+    transform: rotate(90deg);
+  }
+  
+
+
+
+.skills-list li img, .project-list li a img {
+    height: 40px;
+    width: auto;
+}
+.skills-list, .project-list {
+    list-style-type: none;
+}
+.skills-list {
+    display: flex;
+    justify-content: center;
+}
+.skills-list li {
+    margin: 10px;
+}
+
+/* PROJECTS STYLING */
+.projects h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.project-card {
+    background-color: rgba(255, 255, 255, 0.46);
+    border: 1px solid rgba(3, 52, 105, 0.137);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(3, 52, 105, 0.137);
+    transition: transform 0.3s;
+  }
+  
+  .project-title {
+    text-align: center;
+  }
+
+  .project-title h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .project-content {
+    margin-top: 20px;
+  }
+  
+  .project-description p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .project-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+  }
+  
+  .project-images img {
+    min-width: 300px;
+    max-width:850px;
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+    border-radius: 15px;
+  }
+  
+  .project-images img:hover {
+    transform: scale(1.2);
+  }
+  
+  .project-content a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    
+    transition: color 0.3s;
+  }
+  
+  .project-content a:hover {
+    text-decoration: none;
+  }
+  
+/* 
+  MEDIA SELECTOR FOR 500PX WIDTH */
