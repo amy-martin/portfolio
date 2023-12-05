@@ -19,9 +19,9 @@ const App = () => {
       <main>
         <Sidebar />
         <Routes>
-          <Route path="/" element={<HomePage />}/>
-          <Route path="/about-me" element ={<AboutMe />} />
-          <Route path="/projects"element={<Projects/>} />
+          <Route path="/portfolio" element={<HomePage />}/>
+          <Route path="/portfolio/about-me" element ={<AboutMe />} />
+          <Route path="/portfolio/projects"element={<Projects/>} />
         </Routes>
       </main>
     </Router>

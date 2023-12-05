@@ -1,8 +1,6 @@
 import React from "react";
-import { AboutMe } from "./AboutMe";
-import { Projects } from "../projects/Projects";
 import { Skills } from "./Skills";
-import { Link } from "react-router-dom";
+
 
 export const HomePage = () => {
     return (

@@ -139,21 +139,23 @@ img.sidebar-icon {
     border-radius: 10px;
   }
   
-  .sidebar ul li img {
+  .sidebar ul a li img {
     height: 40px;
     margin-right: 10px;
   }
   
-  .sidebar ul li a {
+  .sidebar ul a li{
     font-size: 20px;
     text-decoration: none;
-    color: rgba(3, 52, 104)
-    
+    color: rgba(3, 52, 104);
+  }
 
+  .sidebar ul a {
+    text-decoration:none
   }
   
   .sidebar ul li:hover {
-    background-color: rgba(3, 52, 105, 0.643);
+    background-color: rgb(196, 193, 193);
   }
 
   
