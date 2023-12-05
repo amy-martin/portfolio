@@ -6,7 +6,7 @@ import { RedditClient } from "./RedditClient";
 export const Projects = () => {
     return (
         <div className="projects">
-            <h2>Projects</h2>
+            <h2 className="page-title">Projects</h2>
             <MarusCrochet />
             <RedditClient />
         </div>

@@ -55,7 +55,7 @@ nav {
 
 }
 
-.contact-list li a img:hover {
+.contact-list li a img:hover, img.sidebar-icon:hover {
     background: rgba(255,255,255,0.55); /* Semi-transparent black overlay */
     border-radius: 50%;
 }
@@ -183,19 +183,19 @@ img.sidebar-icon {
 }
 
 /* PROJECTS STYLING */
-.projects h2 {
+.page-title  {
     font-size: 30px;
     font-weight: 500;
     text-align: center;
+    padding: 30px
 }
-.project-card {
+.project-card, .about-me p {
     background-color: rgba(255, 255, 255, 0.46);
     border: 1px solid rgba(3, 52, 105, 0.137);
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(3, 52, 105, 0.137);
-    transition: transform 0.3s;
   }
   
   .project-title {
@@ -234,6 +234,7 @@ img.sidebar-icon {
     margin-right: 10px;
     margin-bottom: 10px;
     transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(3, 52, 105, 0.137);
     border-radius: 15px;
   }
   
@@ -253,6 +254,22 @@ img.sidebar-icon {
   .project-content a:hover {
     text-decoration: none;
   }
-  
+
+
+/* ABOUT ME  */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me p{
+    text-align: center;
+    line-height: 1.5;
+    width: 75%;
+    min-width: 300px;
+    max-width: 900px;
+  }
+
 /* 
   MEDIA SELECTOR FOR 500PX WIDTH */
