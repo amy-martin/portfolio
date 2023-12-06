@@ -5,7 +5,6 @@ import { Skills } from "./Skills";
 export const HomePage = () => {
     return (
         <div className="home-page">
-            
                 <h1>
                     Welcome
                 </h1>

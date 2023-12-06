@@ -26,7 +26,7 @@ nav {
     height: 75px;
     position: fixed;
     width: 100%;
-    min-width: 300px;
+    min-width: 250px;
     z-index: 100;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ nav {
 main {
     height: calc(100% - 100px);
     width: 100%;
-    min-width: 300;
+    min-width: 250px;
     position: absolute;
     top: 100px;
     display: flex;
@@ -79,16 +79,16 @@ main {
 }
 .home-page {
     width: 100%;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 900px;
     height: 75%;
+    min-height: 600px;
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
     
 }
 .home-page h1 {
@@ -166,11 +166,11 @@ img.sidebar-icon {
 
 
 
-.skills-list li img, .project-list li a img {
+.skills-list li img {
     height: 40px;
     width: auto;
 }
-.skills-list, .project-list {
+.skills-list{
     list-style-type: none;
 }
 .skills-list {
@@ -196,7 +196,9 @@ img.sidebar-icon {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(3, 52, 105, 0.137);
   }
-  
+.project-card {
+  max-width: 1800px;
+}
   .project-title {
     text-align: center;
   }
@@ -224,7 +226,7 @@ img.sidebar-icon {
   }
   
   .project-images img {
-    min-width: 300px;
+    min-width: 250px;
     max-width:850px;
     width: 75%;
     height: auto;
@@ -261,15 +263,59 @@ img.sidebar-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .about-me p{
     text-align: center;
     line-height: 1.5;
     width: 85%;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 1200px;
   }
 
 /* 
   MEDIA SELECTOR FOR 500PX WIDTH */
+
+  @media screen and (max-width:600px) {
+    body {
+      font-size: 17.5px;
+    }
+    main {
+      top: 100px;
+    }
+    
+    .home-page {
+      height: fit-content;
+      width: 90%;
+      min-width: 300px;
+      justify-content:flex-start;
+
+    }
+    .home-page h1 {
+      margin: 0;
+      font-size: 50px;
+      font-weight: 400;
+      text-align: center;
+      padding: 15px
+    }
+    .home-page p {
+      font-size: 17.5px;
+    }
+    .home-page h3 {
+      margin: 0;
+    }
+    #skills h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .skills-list{
+      max-width: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      height: 40px;
+    }
+    .skills-list li img {
+      height: 30px;
+    }
+  }
