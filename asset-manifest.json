@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c5efe76a.css",
-    "main.js": "/portfolio/static/js/main.e86646ac.js",
+    "main.js": "/portfolio/static/js/main.2c51f816.js",
     "static/js/787.86751347.chunk.js": "/portfolio/static/js/787.86751347.chunk.js",
     "static/media/marus-crochet-1.png": "/portfolio/static/media/marus-crochet-1.dd1c37ee3b14589e0021.png",
     "static/media/background-image.jpeg": "/portfolio/static/media/background-image.dbea06e4cb2cd70d475a.jpeg",
@@ -9,6 +9,7 @@
     "static/media/reddit-2.png": "/portfolio/static/media/reddit-2.e4387bdde0ba18f54fd1.png",
     "static/media/marus-crochet-3.png": "/portfolio/static/media/marus-crochet-3.38c104f70421b0611832.png",
     "static/media/marus-crochet-2.png": "/portfolio/static/media/marus-crochet-2.4e0ac7f9f9e8fb5766d5.png",
+    "static/media/Amy_Martin_Resume.pdf": "/portfolio/static/media/Amy_Martin_Resume.fbb39b54c07c84bb2ee3.pdf",
     "static/media/reddit-1.png": "/portfolio/static/media/reddit-1.d40d674dc6e32e3796b2.png",
     "static/media/react-logo.png": "/portfolio/static/media/react-logo.5c4843f08ff3c3f73a63.png",
     "static/media/postgres-logo.png": "/portfolio/static/media/postgres-logo.aa825fa758a8e3507296.png",
@@ -20,11 +21,11 @@
     "static/media/aboutme-icon.png": "/portfolio/static/media/aboutme-icon.9b93777aab7c1e9b525d.png",
     "index.html": "/portfolio/index.html",
     "main.c5efe76a.css.map": "/portfolio/static/css/main.c5efe76a.css.map",
-    "main.e86646ac.js.map": "/portfolio/static/js/main.e86646ac.js.map",
+    "main.2c51f816.js.map": "/portfolio/static/js/main.2c51f816.js.map",
     "787.86751347.chunk.js.map": "/portfolio/static/js/787.86751347.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5efe76a.css",
-    "static/js/main.e86646ac.js"
+    "static/js/main.2c51f816.js"
   ]
 }
