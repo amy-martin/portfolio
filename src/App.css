@@ -17,8 +17,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-
+    overflow: scroll;
 }
 
 /* CONTACT NAV STYLING */
@@ -69,7 +68,7 @@ main {
     top: 100px;
     display: flex;
     justify-content: center;
-    overflow: scroll;
+
 }
 
 /* HOME PAGE STYLING */
@@ -211,9 +210,8 @@ img.sidebar-icon {
     margin-top: 20px;
   }
   
-  .project-description p{
+  .project-content p{
     text-align: center;
-    font-size: 14px;
     line-height: 1.5;
   }
   
@@ -255,7 +253,9 @@ img.sidebar-icon {
     text-decoration: none;
   }
 
+.projects {
 
+}
 /* ABOUT ME  */
 .about-me {
     display: flex;
