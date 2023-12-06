@@ -282,7 +282,7 @@ img.sidebar-icon {
       font-size: 17.5px;
     }
     main {
-      top: 100px;
+      top: 135px;
     }
     
     .home-page {
@@ -294,7 +294,7 @@ img.sidebar-icon {
     }
     .home-page h1 {
       margin: 0;
-      font-size: 50px;
+      font-size: 40px;
       font-weight: 400;
       text-align: center;
       padding: 15px
@@ -306,7 +306,7 @@ img.sidebar-icon {
       margin: 0;
     }
     #skills h3 {
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 500;
     }
     .skills-list{
