@@ -55,7 +55,7 @@ nav {
 }
 
 .contact-list li a img:hover, img.sidebar-icon:hover {
-    background: rgba(255,255,255,0.55); /* Semi-transparent black overlay */
+    background: rgba(255,255,255,0.9); 
     border-radius: 50%;
 }
 
@@ -98,9 +98,13 @@ main {
 }
 
 .home-page h3 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 40px
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 40px
+}
+
+.home-page p a:hover {
+  text-decoration: none;
 }
 
 img.sidebar-icon {
