@@ -46,7 +46,7 @@ nav {
     height:fit-content;
     padding: 10px;
 }
-.contact-list li a img {
+.contact-list li a img, img.sidebar-icon {
     height:40px;
     width: auto;
 
@@ -54,8 +54,17 @@ nav {
 
 }
 
+.logo img {
+  height: 70px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .contact-list li a img:hover, img.sidebar-icon:hover {
-    background: rgba(255,255,255,0.9); 
+    background: rgba(255,255,255,0.5); 
     border-radius: 50%;
 }
 
@@ -107,9 +116,6 @@ main {
   text-decoration: none;
 }
 
-img.sidebar-icon {
-    height: 40px;
-}
 
 .sidebar-icon-container {
     margin: 10px;
@@ -322,4 +328,39 @@ img.sidebar-icon {
     .skills-list li img {
       height: 30px;
     }
+  }
+
+  @media only screen and (max-width: 400px) {
+    nav {
+      background-color: rgba(255, 255, 255, 0.5);
+      height: 60px;
+      position: fixed;
+      width: 100%;
+      min-width: 250px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .contact-list li a {
+      padding: 5px;
+  }
+  .contact-list li a img, img.sidebar-icon {
+
+
+      height:30px;
+      width: auto;
+      border-radius: 50%;
+  
+  }
+  
+  .logo img {
+    height: 55px;
+
+  }
+  
+  .contact-list li a img:hover, img.sidebar-icon:hover, .logo img:hover {
+      background: rgba(255,255,255,0.5); 
+      border-radius: 50%;
+  }
   }
