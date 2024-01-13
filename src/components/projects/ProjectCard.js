@@ -1,7 +1,7 @@
 import React from "react";
 
 export const ProjectCard = (props) => {
-    const {title, id, description, imgList, linkName, link} = props.projectInfo;
+    const {title, id, description, imgList, linkName, link, secondLink, secondLinkName} = props.projectInfo;
 
     return (
         <div className="project-card">
@@ -17,6 +17,7 @@ export const ProjectCard = (props) => {
                     })}
                 </div>
                 <a href={link}>{linkName}</a>
+                {secondLink? <a href={secondLink}>{secondLinkName}</a>: null}
             </div>
         </div>
     )
