@@ -12,7 +12,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.55)), url("./media/background-image.jpeg");
+    background-color: #EAEFE7;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -269,9 +269,7 @@ main {
     text-decoration: none;
   }
 
-.projects {
 
-}
 /* ABOUT ME  */
 .about-me {
     display: flex;
@@ -334,7 +332,7 @@ main {
     }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     nav {
       background-color: rgba(255, 255, 255, 0.5);
       height: 60px;
