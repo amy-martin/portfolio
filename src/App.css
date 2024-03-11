@@ -294,10 +294,11 @@ main {
       font-size: 17.5px;
     }
     main {
-      top: 135px;
+      top: 100px;
     }
     
     .home-page {
+      padding-top:75px;
       height: fit-content;
       width: 90%;
       min-width: 300px;
@@ -344,6 +345,9 @@ main {
       align-items: center;
       justify-content: space-between;
   }
+  .home-page {
+    padding-top: 75px;
+  }
   .contact-list li a {
       padding: 5px;
   }
@@ -355,7 +359,9 @@ main {
       border-radius: 50%;
   
   }
-  
+  .sidebar-container.sidebar {
+    top: 60px;
+  }
   .logo img {
     height: 55px;
 
